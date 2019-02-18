@@ -1,0 +1,1 @@
+fl = open('wiki.hist', 'w+')
