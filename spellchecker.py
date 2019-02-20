@@ -2,17 +2,11 @@ import sys
 
 
 
-fl = open('wiki.txt', 'r')
+fl = open('wiki2.txt', 'r')
 words = fl.read()
 freq = words.split()
 
-
-##for line in fl.readlines():
-##    line = line.strip('\n')
-##    (f, w) = line.split('\t')
-##    freq.append((int(f), w))
-
-text = "Houston Hoston is awesome"
+text = str(input("Enter a String: "))
 text1 = text.split()
 for words in text1:
     if words in freq:
