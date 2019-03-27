@@ -8,3 +8,5 @@ all:
 
 	lt-comp lr apertium-hbs-eng.hbs-eng.dix hbs-eng.autobil.bin
 	lt-comp rl apertium-hbs-eng.hbs-eng.dix eng-hbs.autobil.bin
+
+	apertium-preprocess-transfer apertium-hbs-eng.hbs-eng.t1x hbs-eng.t1x.bin
